@@ -1,0 +1,59 @@
+body {
+  margin-top: 50px;
+}
+
+
+.jumbotron {
+  position: relative;
+  background: #7D9E5D;
+  overflow: hidden;
+  padding-bottom: 28em;
+  margin-bottom: 0px;
+}
+
+.jumbotron .header {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+}
+
+.jumbotron:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.15;
+  background-image:   url('http://41.media.tumblr.com/tumblr_m0u8nlNXaN1qbh26io1_1280.png');
+  background-position: 50% 40%;
+  background-repeat: repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -mz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container-2 {
+  background-color: #ECF1E8;
+  padding: 50px 0px 20px 0px;
+  text-align: justify;
+}
+.thumbnail {
+    width: 50%;
+    margin: auto;
+  }
+
+ul {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+#credits {
+  font-weight: normal;
+  padding-bottom: 5px;
+}
